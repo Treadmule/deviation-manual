@@ -3,7 +3,7 @@ Installation
 
 All installations follow the same pattern: use a DFU tool to flash the
 dfu to the transmitter, then reboot the transmitter in USB mode and
-update the file system. The transmitter may file to boot if you try
+update the file system. The transmitter may fail to boot if you try
 booting deviation before updating the file system.
 
 The :ref:`preparation` section covers things you need to do before
