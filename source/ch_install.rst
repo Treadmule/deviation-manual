@@ -166,7 +166,7 @@ devices. Take the steps necessary to resolve any connection issues.
    check box if not already selected.
 .. endif::
 
-3) Click the 'Install/Upgrade' option. Installation will take a few minutes, so be patient. A pop-up dialog box will notify you when installation is completed. You are done. 
+3) Click the 'Install/Upgrade' option. Installation will take a few minutes, so be patient. A pop-up dialog box will notify you when installation is completed. You are done.
 4) Turn off your Devo transmitter. When you turn it on again, you'll be greeted by the Deviation splash screen.
 
 .. if:: devo10
@@ -194,26 +194,16 @@ installation.
 
 If you followed the foregoing instructions for installing the deviation firmware ZIP file for your Devo using the Deviation Uploader tool, your installation is complete and no further installations are necessary. If, on the other hand, you unzipped the file and installed the firmware dfu file alone, then your must continue by installing the library dfu file. There is no advantage in doing the installation this way, but it can be done.
 
-Deviation 4.0.1
+Deviation 5.0
 ---------------
 
-If you are upgrading from the Deviation 4.0.1 release and have
-installed extra hardware, things have changed. Most notably, the
-hardware configuration information has moved from 'tx.ini' to
-'hardware.ini'. You'll need to move your changes from 'tx.ini' to
-'hardware.ini'.
-
-Also, the hardware connections have changed for some modules you may have added, allowing
-better control of the module and telemetry on some of them. See the
-module list at
-http://www.deviationtx.com/wiki/modulelist
-for current details.
+The long-awaited firmware update from version 4.01 to version 5.0 was accomplished on April 30, 2016 and was announce on the DeviationTx website forum. Deviation version 5.0 is the current version and it includes all patches, bug fixes, improvements and protocols of the previous version. Even so, development continues, so new transmitters will be added to the support list as well as new protocols, when they become available.
 
 Nightly Deviation Builds
 ------------------------
 
 The Nightly builds are versions of Deviation with additional features
-beyond the Deviation 4.0.1 release version.  The Nightly builds are
+beyond the Deviation 5.0 release version.  The Nightly builds are
 provided to allow the Deviation community to fully exercise new
 features so the community can provide feedback and suggestions for
 improvement.  As a user, you recognize that Deviation is a community
@@ -236,10 +226,10 @@ nightly builds.  Any Deviation user with an update or change to the
 manual can submit additions and changes via the Deviation Bug Tracker
 at http://deviationtx.com/mantisbt
 
-So should you load the Deviation 4.0.1 release or should you load a
+So should you load the Deviation 5.0 release or should you load a
 Nightly?  Your own requirements will determine the answer to that
 question.  If you use Walkera, Spectrum and Flysky models, and any
-number of variations of the WLToys V2x2 quads, the Deviation 4.0.1
+number of variations of the WLToys V2x2 quads, the Deviation 5.0
 release will be sufficient.  If you have one of many newer small
 quads, or if you want support for additional hardware beyond
 additional transmitter modules, you should consider using the Nightly
