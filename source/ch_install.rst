@@ -6,7 +6,7 @@ Windows™ users can choose between two methods of installing the deviation firm
 1) Use the Deviation Uploader tool
 2) Use the Walkera DfuSe USB Upgrade tool (Windows™ only)
 
-If you do not have the Windows™ operating system, go with the first choice, the Deviation Uploader tool. It is a Java application that was designed by the Deviation developer team to be efficient and simple to use with any Devo radio and any version of deviation or even Devention, if you should wish to revert to the original Walkera firmware. The Walkera tool uses a two-step approach, in which you first install the firmware, then the filesystem library. The Deviation Uploader tool does the same thing in one simple, convenient step, using the ZIP compressed deviation firmware file as the source.
+If you do not have the Windows™ operating system, go with the first choice, the Deviation Uploader tool. This tool is a Java application that was designed by the Deviation developer team to be efficient and simple to use with any Devo radio and any version of deviation or even Devention, if you should wish to revert to the original Walkera firmware. The Walkera tool uses a two-step approach, in which you first install the firmware, then the filesystem library. The Deviation Uploader tool does the same thing in one simple, convenient step, using the ZIP compressed deviation firmware file as the source.
 
 .. if:: devo10
 If your transmitter is a Devo F7 or F12E, you **must** use the Deviation
@@ -56,7 +56,7 @@ Windows Driver Installation
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 The Walkera DfuSe tool and the Deviation Uploader tool use different
-drivers. Both can be installed by the Deviation USBDrv Installer,
+drivers. Each can be installed by the Deviation USBDrv Installer,
 available from
 http://www.deviationtx.com/downloads-new/category/161-dfu-usb-tool
 
@@ -194,26 +194,16 @@ installation.
 
 If you followed the foregoing instructions for installing the deviation firmware ZIP file for your Devo using the Deviation Uploader tool, your installation is complete and no further installations are necessary. If, on the other hand, you unzipped the file and installed the firmware dfu file alone, then your must continue by installing the library dfu file. There is no advantage in doing the installation this way, but it can be done.
 
-Deviation 4.0.1
+Deviation 5.0
 ---------------
 
-If you are upgrading from the Deviation 4.0.1 release and have
-installed extra hardware, things have changed. Most notably, the
-hardware configuration information has moved from 'tx.ini' to
-'hardware.ini'. You'll need to move your changes from 'tx.ini' to
-'hardware.ini'.
-
-Also, the hardware connections have changed for some modules you may have added, allowing
-better control of the module and telemetry on some of them. See the
-module list at
-http://www.deviationtx.com/wiki/modulelist
-for current details.
+The long-awaited upgrade from Deviation version 4.0.1 to version 5.0 was accomplished on April 30, 2016 and was announced on the DeviationTx website user forum. Being the new current version of the Deviation firmware, it includes all patches, bug fixes and improvements made since the release of version 4.0.1. Even so, developments of the firmware and protocols will continue to improve the users' experience.
 
 Nightly Deviation Builds
 ------------------------
 
 The Nightly builds are versions of Deviation with additional features
-beyond the Deviation 4.0.1 release version.  The Nightly builds are
+beyond the Deviation 4.0.1 and 5.0 release versions.  The Nightly builds are
 provided to allow the Deviation community to fully exercise new
 features so the community can provide feedback and suggestions for
 improvement.  As a user, you recognize that Deviation is a community
@@ -236,10 +226,10 @@ nightly builds.  Any Deviation user with an update or change to the
 manual can submit additions and changes via the Deviation Bug Tracker
 at http://deviationtx.com/mantisbt
 
-So should you load the Deviation 4.0.1 release or should you load a
+So should you load the Deviation 5.0 release or should you load a
 Nightly?  Your own requirements will determine the answer to that
 question.  If you use Walkera, Spectrum and Flysky models, and any
-number of variations of the WLToys V2x2 quads, the Deviation 4.0.1
+number of variations of the WLToys V2x2 quads, the Deviation 5.0
 release will be sufficient.  If you have one of many newer small
 quads, or if you want support for additional hardware beyond
 additional transmitter modules, you should consider using the Nightly
