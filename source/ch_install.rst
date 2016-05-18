@@ -197,7 +197,7 @@ If you followed the foregoing instructions for installing the deviation firmware
 Deviation 5.0
 ---------------
 
-The long-awaited firmware update from version 4.01 to version 5.0 was accomplished on April 30, 2016 and was announce on the DeviationTx website forum. Deviation version 5.0 is the current version and it includes all patches, bug fixes, improvements and protocols of the previous version. Even so, development continues, so new transmitters will be added to the support list as well as new protocols, when they become available.
+The long-awaited firmware update from version 4.0.1 to version 5.0 was accomplished on April 30, 2016 and was announce on the DeviationTx website forum. Deviation version 5.0 is the current version and it includes all patches, bug fixes, improvements and protocols of the previous version. Even so, development continues, so new controllers will be added to the support list as well as new protocols and features, when they become available.
 
 Nightly Deviation Builds
 ------------------------
